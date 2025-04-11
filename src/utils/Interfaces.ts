@@ -7,8 +7,7 @@ export interface JobItem {
     website: string;
     jobUrl: string;
     description: string;
-    culture: string;
-    benefits: string;
+    jobAppeal: string;
     location: string;
     workStyle: string;
     requiredSkills: string[];

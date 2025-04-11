@@ -1,153 +1,206 @@
 [
-    {
-      "id": 1,
-      "name": "Acme Technology",
-      "slug": "acme-technology",
-      "tagline": "Leading innovation in cloud solutions with a great work culture",
-      "imageUrl": "/images/acme.jpg",
-      "website": "https://example.com/acme",
-      "jobUrl": "https://example.com/acme/careers",
-      "description": "Acme Technology is revolutionizing the way businesses use cloud computing with their innovative solutions.",
-      "culture": "Acme offers a collaborative work environment where creativity and problem-solving are highly valued.",
-      "benefits": "Comprehensive health insurance, flexible hours, educational stipends, and a casual work environment.",
-      "location": "San Francisco, CA",
-      "workStyle": "Hybrid",
-      "requiredSkills": ["React", "TypeScript", "Node.js", "AWS", "GraphQL"],
-      "stackFit": "This role aligns well with my current skills in React and TypeScript, but I would need to deepen my knowledge of GraphQL.",
-      "goalsInPosition": [
-        "Contribute to large-scale applications that impact thousands of users",
-        "Lead a feature team within the first year",
-        "Develop expertise in cloud architecture and deployment"
+  {
+    "id": 1,
+    "name": "Bible Project",
+    "slug": "bible-project",
+    "tagline": "Making the biblical story accessible to everyone, everywhere",
+    "imageUrl": "/images/bibleproject-logo.png",
+    "website": "https://bibleproject.com",
+    "jobUrl": "https://bibleproject.com/jobs/frontend-engineer/",
+    "description": "Bible Project is a Christian organization based in SE Portland, Oregon, known for creating free, high-quality Bible resources. Their mission is to help people experience the Bible as a unified story that leads to Jesus.",
+    "jobAppeal": "Bible Project is a Christian organization based out of SE Portland, Oregon. Bible Project is remote-friendly, offers very generous benefits, and provides stipends for professional development. The main appeal for me is that I am someone who has benefitted form the Bible Projects free content. I would love to be a part of the team that makes what they do possible. I really appreciate the company culture. At Bible Project they actively try to foster connection among their employees through their virtual interest groups. They also have a 100% compensation rate for parental, caregiver, and medical leave. They really seem to care about their employees wellness, since they even schedule a four week rest period each year.",
+    "location": "Portland, OR (Hybrid)",
+    "workStyle": "Hybrid",
+    "requiredSkills": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "stackFit": "The role aligns well with my current skills in JavaScript, HTML, and CSS. React and server-side knowledge are a plus, so I could contribute immediately without needing to acquire major new skills.",
+    "goalsInPosition": [
+      "Contribute to the Classroom platform used by learners around the world",
+      "Grow under mentorship from experienced engineers and strengthen best practices",
+      "Be part of a mission-driven team that makes impactful content accessible for free"
+    ],
+    "currentSkillMatch": {
+      "have": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "React"
       ],
-      "currentSkillMatch": {
-        "have": ["React", "TypeScript", "Node.js", "Basic AWS"],
-        "needToLearn": ["Advanced GraphQL", "AWS Architecture"]
-      },
-      "relatedPosition": {
-        "title": "Senior Frontend Developer",
-        "description": "Developing responsive and interactive web applications using React and TypeScript.",
-        "link": "https://example.com/acme/jobs/senior-frontend"
-      }
+      "needToLearn": []
     },
-    {
-      "id": 2,
-      "name": "DataViz Inc",
-      "slug": "dataviz-inc",
-      "tagline": "Creating beautiful data visualizations that tell powerful stories",
-      "imageUrl": "/images/dataviz.jpg",
-      "website": "https://example.com/dataviz",
-      "jobUrl": "https://example.com/dataviz/careers",
-      "description": "DataViz specializes in turning complex data into intuitive visualizations that help companies make better decisions.",
-      "culture": "DataViz encourages innovative thinking and values work-life balance, with regular team building events.",
-      "benefits": "Remote-first culture, competitive salary, 401k matching, and continuous learning opportunities.",
-      "location": "Remote (US-based)",
-      "workStyle": "Remote",
-      "requiredSkills": ["React", "TypeScript", "D3.js", "Data Analysis", "SVG"],
-      "stackFit": "My React and TypeScript skills are directly applicable, but I would need to improve my D3.js skills for this role.",
-      "goalsInPosition": [
-        "Become an expert in data visualization techniques",
-        "Contribute to open-source visualization libraries",
-        "Help develop company standards for accessibility in visualizations"
-      ],
-      "currentSkillMatch": {
-        "have": ["React", "TypeScript", "Basic D3.js", "SVG"],
-        "needToLearn": ["Advanced D3.js", "Data Analysis"]
-      },
-      "relatedPosition": {
-        "title": "Data Visualization Engineer",
-        "description": "Creating interactive data visualizations using D3.js and modern web technologies.",
-        "link": "https://example.com/dataviz/jobs/viz-engineer"
-      }
-    },
-    {
-      "id": 3,
-      "name": "Tech Innovators",
-      "slug": "tech-innovators",
-      "tagline": "Pushing boundaries with cutting-edge technology products",
-      "imageUrl": "/images/tech-innovators.jpg",
-      "website": "https://example.com/tech-innovators",
-      "jobUrl": "https://example.com/tech-innovators/careers",
-      "description": "Tech Innovators creates products that are revolutionizing how people interact with technology.",
-      "culture": "Fast-paced but supportive environment that celebrates creativity and calculated risk-taking.",
-      "benefits": "Stock options, unlimited PTO, health benefits, and regular hackathons.",
-      "location": "Austin, TX",
-      "workStyle": "Hybrid",
-      "requiredSkills": ["React", "TypeScript", "Next.js", "TailwindCSS", "Jest"],
-      "stackFit": "This position is a perfect match for my current skill set, as I have experience with their entire frontend stack.",
-      "goalsInPosition": [
-        "Contribute to product features that directly impact user experience",
-        "Mentor junior developers",
-        "Help establish best practices for frontend development"
-      ],
-      "currentSkillMatch": {
-        "have": ["React", "TypeScript", "Next.js", "TailwindCSS", "Jest"],
-        "needToLearn": ["Company-specific workflows"]
-      },
-      "relatedPosition": {
-        "title": "Frontend Engineer",
-        "description": "Building intuitive, high-performance user interfaces for our suite of products.",
-        "link": "https://example.com/tech-innovators/jobs/frontend-engineer"
-      }
-    },
-    {
-      "id": 4,
-      "name": "DevOps Solutions",
-      "slug": "devops-solutions",
-      "tagline": "Streamlining development and operations for enterprise clients",
-      "imageUrl": "/images/devops.jpg",
-      "website": "https://example.com/devops-solutions",
-      "jobUrl": "https://example.com/devops-solutions/careers",
-      "description": "DevOps Solutions provides tools and services that help companies implement efficient DevOps practices.",
-      "culture": "Strong focus on work-life balance with a results-oriented approach rather than strict working hours.",
-      "benefits": "Remote work options, competitive salary, professional development budget, and health benefits.",
-      "location": "Chicago, IL",
-      "workStyle": "On-site",
-      "requiredSkills": ["React", "TypeScript", "Docker", "Kubernetes", "CI/CD Pipelines"],
-      "stackFit": "While I have strong React and TypeScript skills, I would need to significantly expand my DevOps knowledge for this role.",
-      "goalsInPosition": [
-        "Transition into a DevOps-focused role",
-        "Gain expertise in containerization and orchestration",
-        "Bridge the gap between frontend development and operations"
-      ],
-      "currentSkillMatch": {
-        "have": ["React", "TypeScript", "Basic Docker"],
-        "needToLearn": ["Kubernetes", "Advanced CI/CD", "Infrastructure as Code"]
-      },
-      "relatedPosition": {
-        "title": "Frontend DevOps Engineer",
-        "description": "Building and maintaining frontend infrastructure and deployment pipelines.",
-        "link": "https://example.com/devops-solutions/jobs/frontend-devops"
-      }
-    },
-    {
-      "id": 5,
-      "name": "Creative Digital",
-      "slug": "creative-digital",
-      "tagline": "Merging creativity with technology for exceptional user experiences",
-      "imageUrl": "/images/creative-digital.jpg",
-      "website": "https://example.com/creative-digital",
-      "jobUrl": "https://example.com/creative-digital/careers",
-      "description": "Creative Digital creates engaging digital experiences that combine stunning design with solid technology.",
-      "culture": "Collaborative environment that brings together designers and developers to create cohesive products.",
-      "benefits": "Flexible hours, casual dress code, regular team outings, and comprehensive benefits package.",
-      "location": "New York, NY",
-      "workStyle": "Hybrid",
-      "requiredSkills": ["React", "TypeScript", "Animation Libraries", "GSAP", "CSS/SCSS"],
-      "stackFit": "My React and TypeScript skills transfer well, but I would need to deepen my knowledge of advanced animation techniques.",
-      "goalsInPosition": [
-        "Develop expertise in creating performant animations",
-        "Collaborate closely with designers to implement pixel-perfect designs",
-        "Help establish component library with reusable animated elements"
-      ],
-      "currentSkillMatch": {
-        "have": ["React", "TypeScript", "CSS/SCSS", "Basic Animations"],
-        "needToLearn": ["GSAP", "Advanced Animation Techniques"]
-      },
-      "relatedPosition": {
-        "title": "Frontend Developer - UI Specialist",
-        "description": "Creating beautiful, interactive user interfaces with a focus on animations and transitions.",
-        "link": "https://example.com/creative-digital/jobs/ui-developer"
-      }
+    "relatedPosition": {
+      "title": "Frontend Engineer",
+      "description": "Craft high-quality, tested web code for the Classroom platform using React and Remix; collaborate with teams and contribute to user-facing features.",
+      "link": "https://bibleproject.com/jobs/frontend-engineer/"
     }
-  ]
-  
+  },
+  {
+    "id": 2,
+    "name": "Life.Church / Youversion",
+    "slug": "life-church-youversion",
+    "tagline": "Helping people engage with the Bible every day through technology",
+    "imageUrl": "/images/YouVersion_logo.png",
+    "website": "https://www.life.church/careers/youversion/",
+    "jobUrl": "https://jobs.lever.co/life/edd2d1c9-c26c-4079-aed5-1c893080ecc8",
+    "description": "YouVersion is the digital ministry of Life.Church, headquartered in Edmond, Oklahoma. They develop the YouVersion Bible App, used daily by millions of people worldwide.",
+    "jobAppeal": "Youversion is the digital ministry of Life.Church in Edmond, Oklahoma. I use the Youversion Bible app daily and believe in Life.Church’s mission to lead people to become fully devoted followers of Christ. They provide competitive benefits, resources for health and wellness, life insurance, generous 401k retirement plan, and stipends for professional development.",
+    "location": "Edmond, OK",
+    "workStyle": "Hybrid",
+    "requiredSkills": [
+      "JavaScript",
+      "TypeScript",
+      "Tailwind CSS",
+      "NextJS",
+      "Cloud Technologies"
+    ],
+    "stackFit": "I already know JavaScript, TypeScript, Tailwind CSS, and NextJS. I would need to learn more about their cloud technologies, including Flywheel and Docker.",
+    "goalsInPosition": [
+      "Work on maintenance and new features for the YouVersion Bible App",
+      "Learn mobile technologies like React Native, Java, Kotlin, Swift, and Objective-C",
+      "Grow into a Senior Engineer role"
+    ],
+    "currentSkillMatch": {
+      "have": [
+        "JavaScript",
+        "TypeScript",
+        "Tailwind CSS",
+        "NextJS"
+      ],
+      "needToLearn": [
+        "Cloud technologies",
+        "React Native",
+        "Java",
+        "Kotlin",
+        "Swift",
+        "Objective-C"
+      ]
+    },
+    "relatedPosition": {
+      "title": "Senior Software Engineer",
+      "description": "Develop and maintain software for YouVersion using modern technologies, review code, mentor other engineers, and plan future developments.",
+      "link": "https://jobs.lever.co/life/edd2d1c9-c26c-4079-aed5-1c893080ecc8"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Overflow",
+    "slug": "overflow",
+    "tagline": "Making generosity frictionless through innovative technology",
+    "imageUrl": "/images/overflow-logo.svg",
+    "website": "https://www.overflow.co/",
+    "jobUrl": "https://www.christiantechjobs.io/christian-jobs/sr-software-engineer-overflow-757",
+    "description": "Overflow is a philanthropy platform based in Mountain View, CA, focused on making generosity frictionless for nonprofits, churches, and charities.",
+    "jobAppeal": "Overflow is a philanthropy platform located in Moutain View, CA about 22 minutes from Menlo Park where my Fiancee works. I want to work here mainly because of what a good fit seems to be. It uses most of the tech stack I learned from CodeStack Academy, and I admire Overflow’s mission to make generosity frictionless. It offers good benefits, company paid holidays, dependent care spending accounts, paid parental leave, a 401k, a mental health stipend, and even the Disney Park Experience!",
+    "location": "Mountain View, CA",
+    "workStyle": "Hybrid",
+    "requiredSkills": [
+      "TypeScript",
+      "React",
+      "NextJS",
+      "NodeJS",
+      "Express",
+      "JavaScript Frameworks"
+    ],
+    "stackFit": "This role fits my current knowledge of the stack I learned from CodeStack Academy. I would need to learn GitLab, MongoDB, and AWS.",
+    "goalsInPosition": [
+      "Learn to use GitLab, MongoDB, and Amazon Web Services",
+      "Grow into a Senior Engineer role and contribute to Overflow’s mission"
+    ],
+    "currentSkillMatch": {
+      "have": [
+        "TypeScript",
+        "React",
+        "NextJS",
+        "NodeJS",
+        "Express"
+      ],
+      "needToLearn": [
+        "GitLab",
+        "MongoDB",
+        "Amazon Web Services"
+      ]
+    },
+    "relatedPosition": {
+      "title": "Senior Software Engineer",
+      "description": "Design APIs, build infrastructure for donation management, implement security and observability, and work with nonprofits to enhance Overflow's platform.",
+      "link": "https://www.christiantechjobs.io/christian-jobs/sr-software-engineer-overflow-757"
+    }
+  }
+  ,
+  {
+    "id": 4,
+    "name": "Department of State Hospitals (California)",
+    "slug": "department-of-state-hospitals",
+    "tagline": "Delivering behavioral healthcare through stable and secure government employment",
+    "imageUrl": "/images/dsh.jpg",
+    "website": "https://www.dsh.ca.gov/About_Us/index_en.html",
+    "jobUrl": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=473072",
+    "description": "The Department of State Hospitals (DSH), based in Sacramento, CA, treats and evaluates the behavioral health needs of patients mandated for treatment by court order. It offers long-term opportunities and job stability through California state government employment.",
+    "jobAppeal": "I would like to work for the Department of State Hospitals because of the stability and long term opportunities working for the California State government. Located in the at our state capital, Sacramento, California, the Department of State Hospitals mostly treats and evaluates the behavioral health needs of patients mandated for treatment by a criminal or civil court judge.",
+    "location": "Sacramento, CA",
+    "workStyle": "On-site",
+    "requiredSkills": ["C#", ".NET", "JavaScript", "HTML5", "SQL"],
+    "stackFit": "There is some overlap with my current stack. I would need to learn Azure DevOps and ServiceNow to be fully integrated with the team.",
+    "goalsInPosition": [
+      "Gain experience working for the California state government",
+      "Transition into roles at other departments within the state system",
+      "Familiarize myself with the tech stacks commonly used in government projects"
+    ],
+    "currentSkillMatch": {
+      "have": ["JavaScript", "HTML5", "SQL"],
+      "needToLearn": ["C#", ".NET", "Azure DevOps", "ServiceNow"]
+    },
+    "relatedPosition": {
+      "title": "Software Developer",
+      "description": "Support system integrations, full-stack applications, and ServiceNow development using technologies such as C#, .NET, and Azure DevOps in a collaborative environment.",
+      "link": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=473072"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Creative Digital",
+    "slug": "creative-digital",
+    "tagline": "Merging creativity with technology for exceptional user experiences",
+    "imageUrl": "/images/creative-digital.jpg",
+    "website": "https://example.com/creative-digital",
+    "jobUrl": "https://example.com/creative-digital/careers",
+    "description": "Creative Digital creates engaging digital experiences that combine stunning design with solid technology.",
+    "jobAppeal": "Collaborative environment that brings together designers and developers to create cohesive products.",
+    "benefits": "Flexible hours, casual dress code, regular team outings, and comprehensive benefits package.",
+    "location": "New York, NY",
+    "workStyle": "Hybrid",
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "Animation Libraries",
+      "GSAP",
+      "CSS/SCSS"
+    ],
+    "stackFit": "My React and TypeScript skills transfer well, but I would need to deepen my knowledge of advanced animation techniques.",
+    "goalsInPosition": [
+      "Develop expertise in creating performant animations",
+      "Collaborate closely with designers to implement pixel-perfect designs",
+      "Help establish component library with reusable animated elements"
+    ],
+    "currentSkillMatch": {
+      "have": [
+        "React",
+        "TypeScript",
+        "CSS/SCSS",
+        "Basic Animations"
+      ],
+      "needToLearn": [
+        "GSAP",
+        "Advanced Animation Techniques"
+      ]
+    },
+    "relatedPosition": {
+      "title": "Frontend Developer - UI Specialist",
+      "description": "Creating beautiful, interactive user interfaces with a focus on animations and transitions.",
+      "link": "https://example.com/creative-digital/jobs/ui-developer"
+    }
+  }
+]

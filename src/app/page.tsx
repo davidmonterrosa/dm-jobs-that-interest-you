@@ -6,21 +6,7 @@ import { useEffect, useState } from "react";
 import CompanyInfo from "@/utils/data/CompanyInfo.json";
 
 export default function Home() {
-  const [companies, setCompanies] = useState<JobItem[]>([]);
-
-  useEffect(() => {
-    const getCompaniesFetch = async () => {
-      const possibleCompanies =  await fetchCompanyData();
-      if(possibleCompanies) {
-        setCompanies(possibleCompanies);
-      }
-    }
-    getCompaniesFetch();
-  }, [])
-
-  useEffect(() => {
-    console.log(companies);
-  }, [companies])
+    const companies: JobItem[] = CompanyInfo;
 
   return (
     <main className="grid xl:grid-cols-3 gap-4 min-h-screen h-full bg-[#eec983] text-black">
@@ -31,10 +17,9 @@ export default function Home() {
       
       {/* Company Cards */}
       {
-        companies.length > 0 ? companies.map((company: JobItem, idx: number) => (
+        companies.map((company: JobItem, idx: number) => (
           <CompanyCard key={idx} jobInfo={company} />
         ))
-        : null
       }
     </main>
   );
