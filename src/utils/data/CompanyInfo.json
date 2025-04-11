@@ -1,0 +1,153 @@
+[
+    {
+      "id": 1,
+      "name": "Acme Technology",
+      "slug": "acme-technology",
+      "tagline": "Leading innovation in cloud solutions with a great work culture",
+      "imageUrl": "/images/acme.jpg",
+      "website": "https://example.com/acme",
+      "jobUrl": "https://example.com/acme/careers",
+      "description": "Acme Technology is revolutionizing the way businesses use cloud computing with their innovative solutions.",
+      "culture": "Acme offers a collaborative work environment where creativity and problem-solving are highly valued.",
+      "benefits": "Comprehensive health insurance, flexible hours, educational stipends, and a casual work environment.",
+      "location": "San Francisco, CA",
+      "workStyle": "Hybrid",
+      "requiredSkills": ["React", "TypeScript", "Node.js", "AWS", "GraphQL"],
+      "stackFit": "This role aligns well with my current skills in React and TypeScript, but I would need to deepen my knowledge of GraphQL.",
+      "goalsInPosition": [
+        "Contribute to large-scale applications that impact thousands of users",
+        "Lead a feature team within the first year",
+        "Develop expertise in cloud architecture and deployment"
+      ],
+      "currentSkillMatch": {
+        "have": ["React", "TypeScript", "Node.js", "Basic AWS"],
+        "needToLearn": ["Advanced GraphQL", "AWS Architecture"]
+      },
+      "relatedPosition": {
+        "title": "Senior Frontend Developer",
+        "description": "Developing responsive and interactive web applications using React and TypeScript.",
+        "link": "https://example.com/acme/jobs/senior-frontend"
+      }
+    },
+    {
+      "id": 2,
+      "name": "DataViz Inc",
+      "slug": "dataviz-inc",
+      "tagline": "Creating beautiful data visualizations that tell powerful stories",
+      "imageUrl": "/images/dataviz.jpg",
+      "website": "https://example.com/dataviz",
+      "jobUrl": "https://example.com/dataviz/careers",
+      "description": "DataViz specializes in turning complex data into intuitive visualizations that help companies make better decisions.",
+      "culture": "DataViz encourages innovative thinking and values work-life balance, with regular team building events.",
+      "benefits": "Remote-first culture, competitive salary, 401k matching, and continuous learning opportunities.",
+      "location": "Remote (US-based)",
+      "workStyle": "Remote",
+      "requiredSkills": ["React", "TypeScript", "D3.js", "Data Analysis", "SVG"],
+      "stackFit": "My React and TypeScript skills are directly applicable, but I would need to improve my D3.js skills for this role.",
+      "goalsInPosition": [
+        "Become an expert in data visualization techniques",
+        "Contribute to open-source visualization libraries",
+        "Help develop company standards for accessibility in visualizations"
+      ],
+      "currentSkillMatch": {
+        "have": ["React", "TypeScript", "Basic D3.js", "SVG"],
+        "needToLearn": ["Advanced D3.js", "Data Analysis"]
+      },
+      "relatedPosition": {
+        "title": "Data Visualization Engineer",
+        "description": "Creating interactive data visualizations using D3.js and modern web technologies.",
+        "link": "https://example.com/dataviz/jobs/viz-engineer"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Tech Innovators",
+      "slug": "tech-innovators",
+      "tagline": "Pushing boundaries with cutting-edge technology products",
+      "imageUrl": "/images/tech-innovators.jpg",
+      "website": "https://example.com/tech-innovators",
+      "jobUrl": "https://example.com/tech-innovators/careers",
+      "description": "Tech Innovators creates products that are revolutionizing how people interact with technology.",
+      "culture": "Fast-paced but supportive environment that celebrates creativity and calculated risk-taking.",
+      "benefits": "Stock options, unlimited PTO, health benefits, and regular hackathons.",
+      "location": "Austin, TX",
+      "workStyle": "Hybrid",
+      "requiredSkills": ["React", "TypeScript", "Next.js", "TailwindCSS", "Jest"],
+      "stackFit": "This position is a perfect match for my current skill set, as I have experience with their entire frontend stack.",
+      "goalsInPosition": [
+        "Contribute to product features that directly impact user experience",
+        "Mentor junior developers",
+        "Help establish best practices for frontend development"
+      ],
+      "currentSkillMatch": {
+        "have": ["React", "TypeScript", "Next.js", "TailwindCSS", "Jest"],
+        "needToLearn": ["Company-specific workflows"]
+      },
+      "relatedPosition": {
+        "title": "Frontend Engineer",
+        "description": "Building intuitive, high-performance user interfaces for our suite of products.",
+        "link": "https://example.com/tech-innovators/jobs/frontend-engineer"
+      }
+    },
+    {
+      "id": 4,
+      "name": "DevOps Solutions",
+      "slug": "devops-solutions",
+      "tagline": "Streamlining development and operations for enterprise clients",
+      "imageUrl": "/images/devops.jpg",
+      "website": "https://example.com/devops-solutions",
+      "jobUrl": "https://example.com/devops-solutions/careers",
+      "description": "DevOps Solutions provides tools and services that help companies implement efficient DevOps practices.",
+      "culture": "Strong focus on work-life balance with a results-oriented approach rather than strict working hours.",
+      "benefits": "Remote work options, competitive salary, professional development budget, and health benefits.",
+      "location": "Chicago, IL",
+      "workStyle": "On-site",
+      "requiredSkills": ["React", "TypeScript", "Docker", "Kubernetes", "CI/CD Pipelines"],
+      "stackFit": "While I have strong React and TypeScript skills, I would need to significantly expand my DevOps knowledge for this role.",
+      "goalsInPosition": [
+        "Transition into a DevOps-focused role",
+        "Gain expertise in containerization and orchestration",
+        "Bridge the gap between frontend development and operations"
+      ],
+      "currentSkillMatch": {
+        "have": ["React", "TypeScript", "Basic Docker"],
+        "needToLearn": ["Kubernetes", "Advanced CI/CD", "Infrastructure as Code"]
+      },
+      "relatedPosition": {
+        "title": "Frontend DevOps Engineer",
+        "description": "Building and maintaining frontend infrastructure and deployment pipelines.",
+        "link": "https://example.com/devops-solutions/jobs/frontend-devops"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Creative Digital",
+      "slug": "creative-digital",
+      "tagline": "Merging creativity with technology for exceptional user experiences",
+      "imageUrl": "/images/creative-digital.jpg",
+      "website": "https://example.com/creative-digital",
+      "jobUrl": "https://example.com/creative-digital/careers",
+      "description": "Creative Digital creates engaging digital experiences that combine stunning design with solid technology.",
+      "culture": "Collaborative environment that brings together designers and developers to create cohesive products.",
+      "benefits": "Flexible hours, casual dress code, regular team outings, and comprehensive benefits package.",
+      "location": "New York, NY",
+      "workStyle": "Hybrid",
+      "requiredSkills": ["React", "TypeScript", "Animation Libraries", "GSAP", "CSS/SCSS"],
+      "stackFit": "My React and TypeScript skills transfer well, but I would need to deepen my knowledge of advanced animation techniques.",
+      "goalsInPosition": [
+        "Develop expertise in creating performant animations",
+        "Collaborate closely with designers to implement pixel-perfect designs",
+        "Help establish component library with reusable animated elements"
+      ],
+      "currentSkillMatch": {
+        "have": ["React", "TypeScript", "CSS/SCSS", "Basic Animations"],
+        "needToLearn": ["GSAP", "Advanced Animation Techniques"]
+      },
+      "relatedPosition": {
+        "title": "Frontend Developer - UI Specialist",
+        "description": "Creating beautiful, interactive user interfaces with a focus on animations and transitions.",
+        "link": "https://example.com/creative-digital/jobs/ui-developer"
+      }
+    }
+  ]
+  
