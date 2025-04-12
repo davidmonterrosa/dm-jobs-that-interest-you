@@ -135,7 +135,7 @@
     "name": "Department of State Hospitals (California)",
     "slug": "department-of-state-hospitals",
     "tagline": "Delivering behavioral healthcare through stable and secure government employment",
-    "imageUrl": "/images/dsh.jpg",
+    "imageUrl": "/images/DSH-logo.png",
     "website": "https://www.dsh.ca.gov/About_Us/index_en.html",
     "jobUrl": "https://calcareers.ca.gov/CalHrPublic/Jobs/JobPosting.aspx?JobControlId=473072",
     "description": "The Department of State Hospitals (DSH), based in Sacramento, CA, treats and evaluates the behavioral health needs of patients mandated for treatment by court order. It offers long-term opportunities and job stability through California state government employment.",
@@ -161,46 +161,38 @@
   },
   {
     "id": 5,
-    "name": "Creative Digital",
-    "slug": "creative-digital",
-    "tagline": "Merging creativity with technology for exceptional user experiences",
-    "imageUrl": "/images/creative-digital.jpg",
-    "website": "https://example.com/creative-digital",
-    "jobUrl": "https://example.com/creative-digital/careers",
-    "description": "Creative Digital creates engaging digital experiences that combine stunning design with solid technology.",
-    "jobAppeal": "Collaborative environment that brings together designers and developers to create cohesive products.",
-    "benefits": "Flexible hours, casual dress code, regular team outings, and comprehensive benefits package.",
-    "location": "New York, NY",
+    "name": "Angel Studios",
+    "slug": "angel-studios",
+    "tagline": "Where viewers decide what stories get told",
+    "imageUrl": "/images/angel-logo.png",
+    "website": "https://www.angel.com/about",
+    "jobUrl": "https://www.christiantechjobs.io/christian-jobs/sr-full-stack-engineer-martech-angel-studios-496",
+    "description": "Angel Studios is a streaming platform where the audience gets to choose and support the content they want to see. Their unique, viewer-driven model helps launch projects through crowdfunding and community voting.",
+    "jobAppeal": "As an avid consumer of media, I think working for Angel Studios would be very cool. I really like their approach to content creation, where it is highly viewer and investor driven. Viewers can sign up for Angel Studio’s guild service and vote on project ideas that could end up getting theatrical or streaming releases. Angel Studios offers great benefits including medical, dental, and vision for employees and their dependents. They offer a 401k with employer matching, a health savings account, stock options, life insurance, pet insurance, and identity theft insurance.",
+    "location": "Provo, UT",
     "workStyle": "Hybrid",
     "requiredSkills": [
+      "JavaScript",
       "React",
-      "TypeScript",
-      "Animation Libraries",
-      "GSAP",
-      "CSS/SCSS"
+      "NodeJS",
+      "PostgreSQL",
+      "SQL",
+      "APIs",
+      "MarTech"
     ],
-    "stackFit": "My React and TypeScript skills transfer well, but I would need to deepen my knowledge of advanced animation techniques.",
+    "stackFit": "Unfortunately there is limited overlap between the Angel Studios tech stack and my current stack. While I know Javascript, React, some SQL, and APIs, I would have to learn NodeJs, PostgreSQL, and MarTech softwares.",
     "goalsInPosition": [
-      "Develop expertise in creating performant animations",
-      "Collaborate closely with designers to implement pixel-perfect designs",
-      "Help establish component library with reusable animated elements"
+      "Familiarize myself with MarTech softwares",
+      "Learn more about backend technologies for streaming platforms"
     ],
     "currentSkillMatch": {
-      "have": [
-        "React",
-        "TypeScript",
-        "CSS/SCSS",
-        "Basic Animations"
-      ],
-      "needToLearn": [
-        "GSAP",
-        "Advanced Animation Techniques"
-      ]
+      "have": ["JavaScript", "React", "SQL", "APIs"],
+      "needToLearn": ["NodeJS", "PostgreSQL", "MarTech softwares"]
     },
     "relatedPosition": {
-      "title": "Frontend Developer - UI Specialist",
-      "description": "Creating beautiful, interactive user interfaces with a focus on animations and transitions.",
-      "link": "https://example.com/creative-digital/jobs/ui-developer"
+      "title": "Senior Full Stack Engineer (MarTech)",
+      "description": "Implement and manage MarTech stack components, improve application performance, ensure tracking accuracy across marketing platforms, and maintain scalable code.",
+      "link": "https://www.christiantechjobs.io/christian-jobs/sr-full-stack-engineer-martech-angel-studios-496"
     }
-  }
+  }  
 ]

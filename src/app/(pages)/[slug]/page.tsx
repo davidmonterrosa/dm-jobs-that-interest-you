@@ -8,15 +8,17 @@ interface PageProps {
   };
 }
 
-const CompanyPage = ({ params }: PageProps) => {
-  const company: JobItem | undefined = CompanyInfo.find(
+const CompanyPage = async ({ params }: PageProps) => {
+
+  // Using find to look through the json file and return the object whose slug string matches
+  const company: JobItem | undefined = await CompanyInfo.find(
     (item) => item.slug === params.slug
   );
 
-  if (!company) return notFound();
+  if (!company) return notFound(); // Returns Next's default 404 page if there isn't company data
 
   return (
-    <div className="bg-[#eec983] min-w-screen w-full p-6 text-black">
+    <div className="bg-[#eec983] min-w-screen min-h-screen w-full p-6 text-black">
       <header className="mb-6 text-center">
         <h1 className="text-4xl font-bold mb-2">{company.name}</h1>
         <p className="text-lg text-gray-600">{company.tagline}</p>
@@ -47,36 +49,38 @@ const CompanyPage = ({ params }: PageProps) => {
 
         <div>
           <h2 className="text-2xl font-semibold">Goals in This Role</h2>
-          <ul className="list-disc list-inside mt-2">
+          <ol className="list-decimal list-inside mt-2">
             {company.goalsInPosition.map((goal, i) => (
               <li key={i}>{goal}</li>
             ))}
-          </ul>
+          </ol>
         </div>
 
         <div>
           <h2 className="text-2xl font-semibold">Skillset Evaluation</h2>
-          <div className="flex justify-evenly">
-            <section>
-              <p className=" mt-2 mb-2">
+          <div className={company.currentSkillMatch.needToLearn.length > 0 ? `flex justify-evenly` : "flex justify-center"}>
+            <div className="ring rounded-lg  w-2xs">
+              <p className="border-b-2 border-black text-center">
                 Skills I have:
               </p>
-              <ul className="list-disc list-inside pl-4 mb-4 ">
+              <ul className="list-disc list-inside ">
                 {company.currentSkillMatch.have.map((skill, i) => (
-                  <li key={i}>{skill}</li>
+                  <li className="ml-4" key={i}>{skill}</li>
                 ))}
               </ul>
-            </section>
+            </div>
             <section>
               {company.currentSkillMatch.needToLearn.length > 0 && (
-                <>
-                  <p className=" mt-2 mb-2"> Skills I’d need to learn:</p>
-                  <ul className="list-disc list-inside pl-4 ">
+                <div className="ring rounded-lg p-4 w-2xs">
+                    <p className="border-b-2 border-black text-center">
+                     Skills I’d need to learn:
+                    </p>
+                  <ul className="list-disc list-inside ">
                     {company.currentSkillMatch.needToLearn.map((skill, i) => (
-                      <li key={i}>{skill}</li>
+                      <li className="ml-4" key={i}>{skill}</li>
                     ))}
                   </ul>
-                </>
+                </div>
               )}
             </section>
           </div>
