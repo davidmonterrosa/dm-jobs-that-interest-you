@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Bible Project",
     "slug": "bible-project",
-    "tagline": "Making the biblical story accessible to everyone, everywhere",
+    "tagline": "We Help People Experience the Bible as a Unified Story That Leads to Jesus",
     "imageUrl": "/images/bibleproject-logo.png",
     "website": "https://bibleproject.com",
     "jobUrl": "https://bibleproject.com/jobs/frontend-engineer/",
@@ -41,7 +41,7 @@
     "id": 2,
     "name": "Life.Church / Youversion",
     "slug": "life-church-youversion",
-    "tagline": "Helping people engage with the Bible every day through technology",
+    "tagline": "Our mission is to encourage and challenge people to seek intimacy with God every day.",
     "imageUrl": "/images/YouVersion_logo.png",
     "website": "https://www.life.church/careers/youversion/",
     "jobUrl": "https://jobs.lever.co/life/edd2d1c9-c26c-4079-aed5-1c893080ecc8",
@@ -150,8 +150,8 @@
       "Familiarize myself with the tech stacks commonly used in government projects"
     ],
     "currentSkillMatch": {
-      "have": ["JavaScript", "HTML5", "SQL"],
-      "needToLearn": ["C#", ".NET", "Azure DevOps", "ServiceNow"]
+      "have": ["JavaScript", "HTML5", "SQL", "C#", ".NET"],
+      "needToLearn": ["Azure DevOps", "ServiceNow"]
     },
     "relatedPosition": {
       "title": "Software Developer",

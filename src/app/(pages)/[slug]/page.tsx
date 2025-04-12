@@ -2,17 +2,12 @@ import { notFound } from "next/navigation";
 import CompanyInfo from "@/utils/data/CompanyInfo.json";
 import { JobItem } from "@/utils/Interfaces";
 
-interface PageProps {
-  params: {
-    slug: string;
-  };
-}
+const CompanyPage = async ({ params }: {params: Promise<{slug: string}>}) => {
 
-const CompanyPage = async ({ params }: PageProps) => {
-
+  const {slug} = await params;
   // Using find to look through the json file and return the object whose slug string matches
-  const company: JobItem | undefined = await CompanyInfo.find(
-    (item) => item.slug === params.slug
+  const company: JobItem | undefined = CompanyInfo.find(
+    (item) => item.slug === slug
   );
 
   if (!company) return notFound(); // Returns Next's default 404 page if there isn't company data
@@ -58,7 +53,7 @@ const CompanyPage = async ({ params }: PageProps) => {
 
         <div>
           <h2 className="text-2xl font-semibold">Skillset Evaluation</h2>
-          <div className={company.currentSkillMatch.needToLearn.length > 0 ? `flex justify-evenly` : "flex justify-center"}>
+          <div className={company.currentSkillMatch.needToLearn.length > 0 ? `flex justify-evenly mt-2` : "flex justify-center mt-2"}>
             <div className="ring rounded-lg  w-2xs">
               <p className="border-b-2 border-black text-center">
                 Skills I have:
@@ -71,7 +66,7 @@ const CompanyPage = async ({ params }: PageProps) => {
             </div>
             <section>
               {company.currentSkillMatch.needToLearn.length > 0 && (
-                <div className="ring rounded-lg p-4 w-2xs">
+                <div className="ring rounded-lg w-2xs">
                     <p className="border-b-2 border-black text-center">
                      Skills I’d need to learn:
                     </p>

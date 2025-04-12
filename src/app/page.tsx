@@ -1,8 +1,6 @@
 "use client";
 import CompanyCard from "@/components/CompanyCard";
-import { fetchCompanyData } from "@/utils/DataServices";
 import { JobItem } from "@/utils/Interfaces";
-import { useEffect, useState } from "react";
 import CompanyInfo from "@/utils/data/CompanyInfo.json";
 
 export default function Home() {
