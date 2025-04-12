@@ -56,24 +56,30 @@ const CompanyPage = ({ params }: PageProps) => {
 
         <div>
           <h2 className="text-2xl font-semibold">Skillset Evaluation</h2>
-          <p className=" mt-2 mb-2">
-            Skills I have:
-          </p>
-          <ul className="list-disc list-inside pl-4 mb-4 ">
-            {company.currentSkillMatch.have.map((skill, i) => (
-              <li key={i}>{skill}</li>
-            ))}
-          </ul>
-          {company.currentSkillMatch.needToLearn.length > 0 && (
-            <>
-              <p className=" mt-2 mb-2"> Skills I’d need to learn:</p>
-              <ul className="list-disc list-inside pl-4 ">
-                {company.currentSkillMatch.needToLearn.map((skill, i) => (
+          <div className="flex justify-evenly">
+            <section>
+              <p className=" mt-2 mb-2">
+                Skills I have:
+              </p>
+              <ul className="list-disc list-inside pl-4 mb-4 ">
+                {company.currentSkillMatch.have.map((skill, i) => (
                   <li key={i}>{skill}</li>
                 ))}
               </ul>
-            </>
-          )}
+            </section>
+            <section>
+              {company.currentSkillMatch.needToLearn.length > 0 && (
+                <>
+                  <p className=" mt-2 mb-2"> Skills I’d need to learn:</p>
+                  <ul className="list-disc list-inside pl-4 ">
+                    {company.currentSkillMatch.needToLearn.map((skill, i) => (
+                      <li key={i}>{skill}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </section>
+          </div>
         </div>
 
         <div>
